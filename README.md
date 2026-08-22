@@ -1,6 +1,3 @@
-# LLM-Abuse-Detection-Project
-Shows Agentic AI + Safety
-
 # LLM Abuse Detection Lab
 
 This project demonstrates a compact AI threat-surface workflow for detecting adversarial prompts, classifying misuse patterns, and producing a small report suitable for a security or threat-intelligence portfolio.
@@ -46,6 +43,15 @@ python -m app.main
 ## Outputs
 
 - `data/misuse_report.json` — structured report of classifications and actions
+
+## Review guide
+
+1. `README.md` — project overview
+2. `data/adversarial_prompts.json` — sample prompt set
+3. `app/llm_abuse_lab/detection.py` — heuristic detection
+4. `app/llm_abuse_lab/workflow.py` — agent orchestration
+5. `app/main.py` — execution entrypoint
+6. `data/misuse_report.json` — sample report output
 
 ## Portfolio value
 
